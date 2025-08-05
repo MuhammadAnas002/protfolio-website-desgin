@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="containar">
+    <div  class="sideBar sideBarGo">
+      <nav>
+          <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/intro.html">My intro</a></li>
+              <li><a href="/services.html">Services</a></li>
+              <li><a href="/blog.html">Blog</a></li>
+              <li><a href="/contact.html">Contect me</a></li>
+          </ul>
+      </nav>
+  </div>
+    <div class="main">
+      <div class="hamburger">
+        <img class="ham" src="Hamburger_icon.svg.png" width="20px" />
+        <img class="cross" src="cross-23.png" width="23px" />
+      </div>
+      <div class="contactInfo">
+        <h1>Contect me for work/general Enquiries</h1>
+        <form>
+          <div class="mb-3">
+            <div id="emailHelp" class="form-text">
+              We'll never share your email & Phone with anyone else.
+            </div>
+            <label for="clientPhone" class="form-label">Name</label>
+            <input type="Name" class="form-control" id="clientPhone" />
+          </div>
+          <div class="mb-3">
+            <label for="clientEmail" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="clientEmail" aria-describedby="emailHelp" />
+          </div>
+          <div class="mb-3">
+            <label for="clientPhone" class="form-label">Phone</label>
+            <input type="phone" class="form-control" id="clientPhone" />
+          </div>
+          <div class="mb-3">
+            <label for="clientPhone" class="form-label">Enquirie</label>
+            <input type="text" class="form-control" id="clientPhone" />
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="isClient" />
+            <label class="form-check-label" for="isClient">I want you to work on a project wirh me</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="logic.js"></script>
+</body>
+
+</html>

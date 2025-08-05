@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.containar {
+    display: flex;
+}
+
+
+.sideBar {
+    background-color: rgb(232, 225, 225);
+    width: 14vw;
+    height: 100vh;
+    transition: 0.3s ease-in-out
+}
+
+.sideBar nav {
+    padding: 25px;
+    font-size: 20px;
+}
+
+
+.sideBar nav li {
+    list-style: none;
+    padding: 14px 0;
+}
+
+.sideBar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: aqua; */
+    width: 86vw;
+}
+
+.infoContainer {
+    width: 78vw;
+    height: 62vh;
+    /* background-color: blue; */
+    margin: 65px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devPic img {
+    height: 62vh;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.hello {
+    font-size: 45px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.about {
+    font-size: 25px;
+}
+
+.moreAbout {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.btn-smr {
+    margin-top: 25px;
+    margin-left: 5px;
+    padding: 8px 10px;
+    border-radius: 25%;
+    color: white;
+    background-color: cadetblue;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-smr:hover {
+    color: cadetblue;
+    background-color: white;
+}
+
+.ham{
+    position: absolute;
+    top: 4px;
+    left: 3px;
+    cursor: pointer;
+}
+.cross{
+    position: absolute;
+    top: 4px;
+    left: 138px;
+    cursor: pointer;
+    display:none ;
+    transition: 0.2s ease-in-out;
+}
+.sideBarGo{
+    transform:translateX(-100%) ;
+}
+
+/* my intro */
+
+.main h2 {
+    margin: 0 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.main h3 {
+    margin: 10px 20px;
+}
+
+.main p {
+    margin: 0 40px;
+}
+.skillContainer{
+    padding: 0 40px;
+    font-weight: bold;
+}
+.skills{
+    width:280px ;
+    height: 7px;
+    background-color: black;
+    border: 2px solid black;
+}
+.skillsItem{
+    display: flex;
+    align-items: center;
+    padding: 2px 0;
+}
+.hundred{
+    width: 400px;
+    background-color: green;
+}
+.pcte{
+    width: 300px;
+    background-color: yellow;
+}
+.fifty{
+    width: 200px ;
+    background-color: yellowgreen;
+}
+.t5{
+    width: 150px;
+    background-color: red;
+}
+
+
+
+/* blog style */
+
+
+.blogItem{
+    margin: 20px;
+    font-family: sans-serif;
+}
+.blogInfo h2{
+    margin: 23px;
+}
+.blogItem button{
+    
+    margin-left: 5px;
+    padding:4px 6px;
+    border-radius: 25%;
+    color: white;
+    background-color:cadetblue ;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}   
+
+.blogItem button:hover{
+    color: cadetblue;
+    background-color:white;
+}
+
+.hideContent{
+    display: none;
+}
+
+.hideContent p{
+    transition: 1s ease-in-out;
+}
+
+/* contect me */
+
+.contactInfo{
+    padding: 0 50px;
+    padding-top: 60px;
+}
+
+
+form{
+    margin-top: 20px;
+}
+
+.form-text{
+    font-size: 20px;
+}
+
+.form-label{
+    display: block;
+    margin-top: 15px;
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+
+.form-check-input{
+    margin-top: 15px;
+    
+}
+.form-check-label{
+    margin-top: 15px;
+}
+
+.btn-primary{
+    margin-top: 15px;
+    padding:8px 10px;
+    border-radius: 25%;
+    color: white;
+    background-color:cadetblue ;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: cadetblue;
+    background-color:white;
+}
+.form-control{
+    width: 35vw;
+    height: 18px;
+    outline: none;
+    
+}
